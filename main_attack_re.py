@@ -10,8 +10,6 @@ from prompt_list import *
 
 TARGET_MODEL = 'gpt-4'
 def get_response(messages, model="gpt-4-1106-preview"):
-    url = "https://api.mit-spider.alibaba-inc.com/chatgpt/api/ask"
-    # url = "http://47.88.8.18:8088/api/ask"
     headers = {
         "Content-Type": "application/json",
         "Authorization": "Bearer eyJ0eXAiOiJqd3QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IjIyNTE4NiIsInBhc3N3b3JkIjoiMjI1MTg2IiwiZXhwIjoyMDA2OTMzNTY1fQ.wHKJ7AdJ22yPLD_-1UHhXek4b7uQ0Bxhj_kJjjK0lRM"
